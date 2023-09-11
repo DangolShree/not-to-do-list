@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- fontaweson cdn  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Not to do list</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container"></div>
+
+      <!-- top title -->
+      <div class="row g-2">
+        <div class="col mt-5 text-center">
+          <h1>Not to do list</h1>
+        </div>
+      </div>
+
+      <!-- form -->
+      <form action="" class="mt-5 border p-5 rounded shadow-lg bg-transparent">
+        <div class="row g-2">
+          <div class="col-md-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Coding.."
+              aria-label="First name"
+              name="task"
+            />
+          </div>
+          <div class="col-md-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Last name"
+              aria-label="Last name"
+              name="hr"
+            />
+          </div>
+          <div class="col-md-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Last name"
+              aria-label="Last name"
+              name="hr"
+            />
+          </div>
+          <div class="col-md-3">
+            <div class="d-grid">
+              <button class="btn btn-primary">Add Task</button>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <!-- table area -->
+      <div lass="row mt-5 pt-2">
+        <!-- 1.entry list -->
+
+        <div class="col-md">
+          <h3 class="text-center">Task Entry List</h3>
+          <hr />
+          <table class="table table-striped table-hover border opacity">
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td>coding</td>
+                <td>40hr</td>
+
+                <td class="text-end">
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                  <button class="btn btn-success">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <th>1</th>
+                <td>coding</td>
+                <td>40hr</td>
+
+                <td class="text-end">
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                  <button class="btn btn-success">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <th>1</th>
+                <td>coding</td>
+                <td>40hr</td>
+
+                <td class="text-end">
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                  <button class="btn btn-success">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <th>1</th>
+                <td>coding</td>
+                <td>40hr</td>
+
+                <td class="text-end">
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                  <button class="btn btn-success">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <th>1</th>
+                <td>coding</td>
+                <td>40hr</td>
+
+                <td class="text-end">
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                  <button class="btn btn-success">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 2 bad list -->
+        <div class="col-md">
+          <h3 class="text-center">Bad List</h3>
+          <hr />
+          <table class="table table-striped table-hover border opacity">
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Coding</td>
+                <td>40hr</td>
+                <td class="text-end">
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Coding</td>
+                <td>40hr</td>
+                <td class="text-end">
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Coding</td>
+                <td>40hr</td>
+                <td class="text-end">
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="alert alert-info">You could have save = 50hr</div>
+        </div>
+
+        <!-- toat time allocated -->
+
+        <div class="alert alert-info">Total hrs per week allocated= 100hr</div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
